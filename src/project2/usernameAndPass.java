@@ -241,7 +241,7 @@ public class usernameAndPass extends javax.swing.JFrame {
             pst.execute();
            
             setVisible(false);
-            new AccountCreated().setVisible(true);
+            new CreatedAccount().setVisible(true);
             dispose();
             connect.close();
         } catch (ClassNotFoundException | SQLException e) {
