@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package project2;
 
 /**
@@ -11,9 +7,7 @@ package project2;
  */
 public class CreatedAccount extends javax.swing.JFrame {
 
-    /**
-     * Creates new form CreatedAccount
-     */
+    
     public CreatedAccount() {
         initComponents();
     }
@@ -126,7 +120,7 @@ public class CreatedAccount extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
+        
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
@@ -146,7 +140,7 @@ public class CreatedAccount extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new CreatedAccount().setVisible(true);
@@ -154,11 +148,11 @@ public class CreatedAccount extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JButton CloseButton;
     private javax.swing.JButton goBackLogin;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
-    // End of variables declaration//GEN-END:variables
+    
 }
