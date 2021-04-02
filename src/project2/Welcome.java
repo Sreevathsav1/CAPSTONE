@@ -1,4 +1,6 @@
+
 package project2;
+
 public class Welcome extends javax.swing.JFrame {
 
     /**
